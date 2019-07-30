@@ -59,7 +59,7 @@ border: 1px solid #0D3140;
 }
 .icon{
     margin-left:.3vw;
-    width:3vw;
+    width: 3vw;
     height:3vw;
     border-radius:50%;
     padding-top:1.3vw;
@@ -95,7 +95,7 @@ article{
     width:95%;
     height:20vw;
     background-color:#0F171E;
-    border-radius:15px;
+    border-radius:10px;
 }
 .Contactme p{
     background-color:#0F171E;
