@@ -1,0 +1,119 @@
+#body{
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+overflow-x: hidden;
+}.mynavbar{
+    height:100px; 
+    box-shadow:.1px .1px 1px rgb(168, 165, 165) ;
+   
+
+}
+.nav-link{
+    color:white;
+    font-weight: 600;
+    font-size:12px;
+    letter-spacing: 1px;
+}
+
+.nav-item{
+margin-left: 15px;
+}
+.navbar-brand{
+    color:white;
+    font-weight: 500;
+    letter-spacing: 3px;
+    margin-left: 30px;
+    
+}
+.navbar-brand:hover{
+    color:white;
+}
+.navbar-brand-span{
+    color:#007ACC;
+}
+.nav-link:hover{
+color:white;
+}
+.nav-link:hover .bar{
+    color:#007ACC;
+    
+    
+    opacity:1;
+    }
+.nav-link.active .bar{
+    color:#007ACC;
+    opacity:1;
+}
+.navbar-fixed-top.scrolled {
+    background-color: #fff !important;
+    transition: background-color 200ms linear;
+  }
+.bar{
+    transition: 1s linear;
+    margin-right: 10px;
+    opacity: 0;
+
+
+}
+.myname{
+    font-size: 64px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 10px;
+}
+.myname1{
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-start;
+    letter-spacing: 2px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgb(168, 165, 165,.5);
+}
+.inline{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 30px;
+   
+}
+.inline a{
+    color:white;
+}
+.social-icons{
+    padding:10px;
+    padding-left: 13px;
+    padding-right: 13px;
+    border-radius: 20px;
+    transition : .5s linear;
+    
+}
+.social-icons:hover{
+    border-radius: 20px;
+    background-color: white;
+    color:black;
+    
+}
+#overlay{
+    background-image: url("images/parallax.jpg");
+
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+  #overlay1{
+    background-color: rgb(0,0,0,0.5); /* Black background with opacity */
+    z-index: 2; 
+    width: 100%;
+    height:100%;
+  }
+  .parallax-window {
+    height: 625px;
+    background: transparent;
+}
