@@ -11,15 +11,28 @@
         <link rel="stylesheet" href="assets/simple-line-icons/css/simple-line-icons.css">
         <link rel="stylesheet" href="assets/css/main.css">
 
-       
-       
+       <!-- Include the library. -->
+        <script
+        src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
+        </script>
+        <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+
+        <!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
+        <link
+        rel="stylesheet"
+        href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
+        />
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <link href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
         <script src="https://kit.fontawesome.com/a076d05399.js"></script>
         <script src="assets/parallax/parallax.js"></script>
         <script src="assets/parallax/parallax.min.js"></script>
+        <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
        
         </script>
     </head>
@@ -67,6 +80,7 @@
                     <div id="overlay1">
                         <div style="display:flex;align-items: flex-end;height:625px; padding-bottom: 50px;"> 
                             <div class="container" style="color:white; ">
+                                
                                 <div class="row">
                                     <div class="col-sm-6 myname " >Sparsh Jain</div>
                                  </div>
@@ -75,15 +89,18 @@
                         
                             <div class="row">
                                
-                             <div class="col-sm-4">      
+                             <div class="col-sm-6">      
                              <ul class="list-inline inline">
                                  <li><a href="https://twitter.com/keenthemes" class="social-icons"><i class="icon-social-facebook"></i></a></li>
                                  <li><a href="https://twitter.com/keenthemes" class="social-icons"><i class="icon-social-twitter"></i></a></li>
                                  <li><a href="https://dribbble.com/keenthemes" class="social-icons"><i class="icon-social-google"></i></a></li>
+                                 <li><a href="https://dribbble.com/keenthemes" class="social-icons"><i class="icon-social-behance"></i></a></li>
                                  <li><a href="https://www.behance.net/keenthemes" class="social-icons"><i class="icon-social-instagram"></i></a></li>
                                  <li><a href="https://www.behance.net/keenthemes" class="social-icons"><i class="icon-social-linkedin"></i></a></li>
-                                 
-                                 
+                                 <li><a href="https://www.behance.net/keenthemes" class="social-icons"><i class="icon-social-github"></i></a></li>
+                                 <li><a href="https://www.behance.net/keenthemes" class="social-icons"><i class="fab fa-hackerrank" style="background:none;"></i></a></li>
+                           
+                             
                              </ul>
                          </div>   
                      </div>
@@ -96,13 +113,22 @@
             <div id="about" style="padding-top:100px;">
                 <div class="container">
                     <div class="row">
-                        <div class="col-sm-4 about-left">
+                        <div class="col-sm-1"></div>
+                        <div class="col-sm-11">
                             <div class="about_main">Intro</div>
                             <div class ="about_intro_main">What I am all about.</div>
                         </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4 about-left" data-aos="fade-up" data-aos-easing="linear"
+                        data-aos-duration="1000">
+                            
+                            <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="light" data-vanity="sparsh-jain-9a236516a"><a class="LI-simple-link" href='https://in.linkedin.com/in/sparsh-jain-9a236516a?trk=profile-badge'>sparsh jain</a></div>
+                        </div>
 
-                        <div class="col-sm-8 about-right">
-                            <div class="about-content">
+                        <div class="col-sm-8 about-right" style="padding-left: 30px;" >
+                            <div class="about-content" data-aos="fade-up" data-aos-easing="linear"
+                            data-aos-duration="1000">
                                 I'm Alex Teseira, orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
                                     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -134,45 +160,77 @@
 
 
 
-            <div id="skills">
+            <div id="skills" style=" margin-bottom:30px;padding-top:120px;" >
                     
                 <div class="container">
-                    <div class="row" style="margin-bottom: 20px;">
+                    <div class="row" style="margin-bottom: 30px;" data-aos="fade-up" data-aos-easing="linear"
+                    data-aos-duration="1000">
+                                                
+                        <div class="myProgress" >
+                            <div class="myBar"></div>
+                        </div>
+                    </div>
+                    <div class="row" style="margin-bottom: 30px;" data-aos="fade-up" data-aos-easing="linear"
+                    data-aos-duration="1000">
                                                 
                         <div class="myProgress">
                             <div class="myBar"></div>
                         </div>
                     </div>
-                    <div class="row" style="margin-bottom: 20px;">
+                    <div class="row" style="margin-bottom: 30px;" data-aos="fade-up" data-aos-easing="linear"
+                    data-aos-duration="1000">
                                                 
                         <div class="myProgress">
                             <div class="myBar"></div>
                         </div>
                     </div>
-                    <div class="row" style="margin-bottom: 20px;">
+                    <div class="row" style="margin-bottom: 30px;" data-aos="fade-up" data-aos-easing="linear"
+                    data-aos-duration="1000">
                                                 
                         <div class="myProgress">
                             <div class="myBar"></div>
                         </div>
                     </div>
-                    <div class="row" style="margin-bottom: 20px;">
+                    <div class="row" style="margin-bottom: 30px;" data-aos="fade-up" data-aos-easing="linear"
+                    data-aos-duration="1000">
+                                                
+                        <div class="myProgress">
+                            <div class="myBar"></div>
+                        </div>
+                    </div> 
+                    <div class="row" style="margin-bottom: 30px;" data-aos="fade-up" data-aos-easing="linear"
+                    data-aos-duration="1000">
                                                 
                         <div class="myProgress">
                             <div class="myBar"></div>
                         </div>
                     </div>
-                    <div class="row" style="margin-bottom: 20px;">
+
+                    <div class="row" style="margin-bottom: 30px;" data-aos="fade-up" data-aos-easing="linear"
+                    data-aos-duration="1000">
                                                 
                         <div class="myProgress">
                             <div class="myBar"></div>
                         </div>
                     </div>
-                    <div class="row" style="margin-bottom: 20px;">
+
+                    <div class="row" style="margin-bottom: 30px;" data-aos="fade-up" data-aos-easing="linear"
+                    data-aos-duration="1000">
                                                 
                         <div class="myProgress">
                             <div class="myBar"></div>
                         </div>
                     </div>
+                    <div class="row" style="margin-bottom: 30px;" data-aos="fade-up" data-aos-easing="linear"
+                    data-aos-duration="1000">
+                                                
+                        <div class="myProgress">
+                            <div class="myBar"></div>
+                        </div>
+                    </div>
+
+                    
+
                     
 
                   </div>
@@ -184,15 +242,608 @@
                
 
         </div>
-    
-        </section>
+
+
+        
+        <div id="experience" style="height:800px; padding-top:150px;">
+
+            
+        	<div class="container">
+        		<div class="">
+					<ul class="nav nav-tabs" id="myTab" role="tablist" data-aos="fade-up" data-aos-easing="linear"
+                    data-aos-duration="1000">
+						<li class="nav-item">
+							<a class="nav-link active" id="home-tab" data-toggle="tab" href="#exper" role="tab" aria-controls="home" aria-selected="true">My Experiences</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">My Education</a>
+						</li>
+					</ul>
+					<div class="tab-content" id="myTabContent">
+						<div class="tab-pane fade show active" id="exper" role="tabpanel" aria-labelledby="home-tab">
+
+
+                            <ul class="list" style="list-style: none;" >
+								<li>
+									<span></span>
+									<div class="media" data-aos="fade-up" data-aos-easing="linear"
+                                    data-aos-duration="1000">
+										<div class="media_cont">
+											<p>March 2017 to present</p>
+										</div>
+										<div class="media-body">
+                                            <div class="dots"><span class="dot"></span><h4 style="color:white;">Colorlib</h4></div>
+											<p>Senior Web Developer <br />Santa monica, Los angeles</p>
+										</div>
+									</div>
+								</li>
+								<li>
+									<span></span>
+									<div class="media" data-aos="fade-up" data-aos-easing="linear"
+                                    data-aos-duration="1000">
+										<div class="media_cont">
+											<p>March 2017 to present</p>
+										</div>
+										<div class="media-body">
+                                            <div class="dots"><span class="dot"></span><h4 style="color:white;">Colorlib</h4></div>
+											
+											<p>Senior Web Developer <br />Santa monica, Los angeles</p>
+										</div>
+									</div>
+								</li>
+								<li>
+								<span></span>
+									<div class="media" data-aos="fade-up" data-aos-easing="linear"
+                                    data-aos-duration="1000">
+										<div class="media_cont">
+											<p>March 2017 to present</p>
+										</div>
+										<div class="media-body">
+                                            <div class="dots"><span class="dot"></span><h4 style="color:white;">Colorlib</h4></div>
+											<p>Senior Web Developer <br />Santa monica, Los angeles</p>
+										</div>
+									</div>
+								</li>
+							</ul>
+							
+						</div>
+						<div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+							
+                            <ul class="list" style="list-style: none;">
+								<li>
+									<span></span>
+									<div class="media" data-aos="fade-up" data-aos-easing="linear"
+                                    data-aos-duration="1000">
+										<div class="media_cont">
+											<p>March 2017 to present</p>
+										</div>
+										<div class="media-body">
+                                            <div class="dots"><span class="dot"></span><h4 style="color:white;">Colorlib</h4></div>
+											<p>Senior Web Developer <br />Santa monica, Los angeles</p>
+										</div>
+									</div>
+								</li>
+								<li>
+									<span></span>
+									<div class="media" data-aos="fade-up" data-aos-easing="linear"
+                                    data-aos-duration="1000">
+										<div class="media_cont">
+											<p>March 2017 to present</p>
+										</div>
+										<div class="media-body">
+                                            <div class="dots"><span class="dot"></span><h4 style="color:white;">Colorlib</h4></div>
+											
+											<p>Senior Web Developer <br />Santa monica, Los angeles</p>
+										</div>
+									</div>
+								</li>
+								<li>
+								<span></span>
+									<div class="media" data-aos="fade-up" data-aos-easing="linear"
+                                    data-aos-duration="1000">
+										<div class="media_cont">
+											<p>March 2017 to present</p>
+										</div>
+										<div class="media-body">
+                                            <div class="dots"><span class="dot"></span><h4 style="color:white;">Colorlib</h4></div>
+											<p>Senior Web Developer <br />Santa monica, Los angeles</p>
+										</div>
+									</div>
+								</li>
+							</ul>
+							
+						</div>
+					</div>
+        		</div>
+        	</div>
+
+        </div>
         
 
+
+        <div id="work" style="height:1500px; padding-top:150px;">
+
+            <div class="container">
+                <div class="row" data-aos="fade-up" data-aos-easing="linear"
+                data-aos-duration="1000" >
+                    <div class="col-sm-12">
+                        <div class="work_header" > My work till now!!</div>
+                    </div>
+                </div>
+
+                <div class="row" style="margin-top: 100px;">
+                    <div class="col-sm-4 fake" data-aos="fade-up" data-aos-easing="linear"
+                    data-aos-duration="1000" onclick="openModal1();">
+                        
+                            <img src="images/01.jpg" class="image" style="width: 100%; height:300px;">
+                            <div class="middle">
+                                <div class="text" >John Doe</div>
+                              </div>
+                        
+                    </div>
+                    <div class="col-sm-4 fake" data-aos="fade-up" data-aos-easing="linear"
+                    data-aos-duration="1000" onclick="openModal2();">
+                        
+                        <img src="images/01.jpg" class="image" style="width: 100%; height:300px;">
+                        <div class="middle">
+                            <div class="text">John Doe</div>
+                          </div>
+                    
+                </div>
+                <div class="col-sm-4 fake" data-aos="fade-up" data-aos-easing="linear"
+                data-aos-duration="1000"  onclick="openModal3();">
+                        
+                    <img src="images/01.jpg" class="image" style="width: 100%; height:300px;">
+                    <div class="middle">
+                        <div class="text" >John Doe</div>
+                      </div>
+                
+                </div>
+                </div>
+
+
+                <div class="row" style="margin-top: 40px;">
+                    <div class="col-sm-4 fake" data-aos="fade-up" data-aos-easing="linear"
+                    data-aos-duration="1000" onclick="openModal4();">
+                        
+                            <img src="images/01.jpg" class="image" style="width: 100%; height:300px;">
+                            <div class="middle">
+                                <div class="text" >John Doe</div>
+                              </div>
+                        
+                    </div>
+                    <div class="col-sm-4 fake" data-aos="fade-up" data-aos-easing="linear"
+                    data-aos-duration="1000" onclick="openModal5();">
+                        
+                        <img src="images/01.jpg" class="image" style="width: 100%; height:300px;">
+                        <div class="middle">
+                            <div class="text" >John Doe</div>
+                          </div>
+                    
+                </div>
+                <div class="col-sm-4 fake" data-aos="fade-up" data-aos-easing="linear"
+                data-aos-duration="1000" onclick="openModal6();">
+                        
+                    <img src="images/01.jpg" class="image" style="width: 100%; height:300px;">
+                    <div class="middle">
+                        <div class="text" >John Doe</div>
+                      </div>
+                
+                </div>
+                </div>
+
+
+                <div class="row" style="margin-top:50px;">
+                    <div class="col-sm-2"></div>
+                    <div class="col-sm-8">
+                    <div class="calendar"  data-aos="fade-up" data-aos-easing="linear"
+                    data-aos-duration="1000">
+                        Loading the data just for you.
+                    </div>
+                </div>
+
+               
+                </div>
+            </div>
+
+        </div>
+
+
+        <div id="myModal1" class="modal">
+            <span class="close cursor" onclick="closeModal1()">&times;</span>
+            <div class="modal-content1">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-4 about-left" data-aos="fade-up" data-aos-easing="linear"
+                        data-aos-duration="1000">
+                            <div class="about_main">Intro</div>
+                            <div class ="about_intro_main">What I am all about.</div>
+                        </div>
+
+                        <div class="col-sm-8 about-right" >
+                            <div class="about-content" data-aos="fade-up" data-aos-easing="linear"
+                            data-aos-duration="1000">
+                                I'm Alex Teseira, orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+                                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
+
+                                    sgnjgjbjsfm
+
+                                    dsfmdfkgvmp
+                                    fsohfoijfn
+                                    rfdfsdfSGfs<br>
+                                    dsvbo<br>
+                                    fnvfd
+                                    <br>
+                                    fdhuirheoia
+                                    <br>
+                                    zxufsufhov
+                                                
+                                    </div>
+                            
+                        </div>
+                    </div>
+
+
+
+                </div>
+                
+          
+              
+            </div>
+          </div>
+        
+
+
+          <div id="myModal2" class="modal">
+            <span class="close cursor" onclick="closeModal2()">&times;</span>
+            <div class="modal-content1">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-4 about-left" data-aos="fade-up" data-aos-easing="linear"
+                        data-aos-duration="1000">
+                            <div class="about_main">Intro</div>
+                            <div class ="about_intro_main">What I am all about.</div>
+                        </div>
+
+                        <div class="col-sm-8 about-right" >
+                            <div class="about-content" data-aos="fade-up" data-aos-easing="linear"
+                            data-aos-duration="1000">
+                                I'm Alex Teseira, orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+                                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
+
+                                    sgnjgjbjsfm
+
+                                    dsfmdfkgvmp
+                                    fsohfoijfn
+                                    rfdfsdfSGfs<br>
+                                    dsvbo<br>
+                                    fnvfd
+                                    <br>
+                                    fdhuirheoia
+                                    <br>
+                                    zxufsufhov
+                                                
+                                    </div>
+                            
+                        </div>
+                    </div>
+
+
+
+                </div>
+                
+          
+              
+            </div>
+          </div>
+
+
+
+          <div id="myModal3" class="modal">
+            <span class="close cursor" onclick="closeModal3()">&times;</span>
+            <div class="modal-content1">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-4 about-left" data-aos="fade-up" data-aos-easing="linear"
+                        data-aos-duration="1000">
+                            <div class="about_main">Intro</div>
+                            <div class ="about_intro_main">What I am all about.</div>
+                        </div>
+
+                        <div class="col-sm-8 about-right" >
+                            <div class="about-content" data-aos="fade-up" data-aos-easing="linear"
+                            data-aos-duration="1000">
+                                I'm Alex Teseira, orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+                                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
+
+                                    sgnjgjbjsfm
+
+                                    dsfmdfkgvmp
+                                    fsohfoijfn
+                                    rfdfsdfSGfs<br>
+                                    dsvbo<br>
+                                    fnvfd
+                                    <br>
+                                    fdhuirheoia
+                                    <br>
+                                    zxufsufhov
+                                                
+                                    </div>
+                            
+                        </div>
+                    </div>
+
+
+
+                </div>
+                
+          
+              
+            </div>
+          </div>
+
+
+          <div id="myModal4" class="modal">
+            <span class="close cursor" onclick="closeModal4()">&times;</span>
+            <div class="modal-content1">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-4 about-left" data-aos="fade-up" data-aos-easing="linear"
+                        data-aos-duration="1000">
+                            <div class="about_main">Intro</div>
+                            <div class ="about_intro_main">What I am all about.</div>
+                        </div>
+
+                        <div class="col-sm-8 about-right" >
+                            <div class="about-content" data-aos="fade-up" data-aos-easing="linear"
+                            data-aos-duration="1000">
+                                I'm Alex Teseira, orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+                                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
+
+                                    sgnjgjbjsfm
+
+                                    dsfmdfkgvmp
+                                    fsohfoijfn
+                                    rfdfsdfSGfs<br>
+                                    dsvbo<br>
+                                    fnvfd
+                                    <br>
+                                    fdhuirheoia
+                                    <br>
+                                    zxufsufhov
+                                                
+                                    </div>
+                            
+                        </div>
+                    </div>
+
+
+
+                </div>
+                
+          
+              
+            </div>
+          </div>
+
+
+          <div id="myModal5" class="modal">
+            <span class="close cursor" onclick="closeModal5()">&times;</span>
+            <div class="modal-content1">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-4 about-left" data-aos="fade-up" data-aos-easing="linear"
+                        data-aos-duration="1000">
+                            <div class="about_main">Intro</div>
+                            <div class ="about_intro_main">What I am all about.</div>
+                        </div>
+
+                        <div class="col-sm-8 about-right" >
+                            <div class="about-content" data-aos="fade-up" data-aos-easing="linear"
+                            data-aos-duration="1000">
+                                I'm Alex Teseira, orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+                                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
+
+                                    sgnjgjbjsfm
+
+                                    dsfmdfkgvmp
+                                    fsohfoijfn
+                                    rfdfsdfSGfs<br>
+                                    dsvbo<br>
+                                    fnvfd
+                                    <br>
+                                    fdhuirheoia
+                                    <br>
+                                    zxufsufhov
+                                                
+                                    </div>
+                            
+                        </div>
+                    </div>
+
+
+
+                </div>
+                
+          
+              
+            </div>
+          </div>
+
+
+          <div id="myModal6" class="modal">
+            <span class="close cursor" onclick="closeModal6()">&times;</span>
+            <div class="modal-content1">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-4 about-left" data-aos="fade-up" data-aos-easing="linear"
+                        data-aos-duration="1000">
+                            <div class="about_main">Intro</div>
+                            <div class ="about_intro_main">What I am all about.</div>
+                        </div>
+
+                        <div class="col-sm-8 about-right" >
+                            <div class="about-content" data-aos="fade-up" data-aos-easing="linear"
+                            data-aos-duration="1000">
+                                I'm Alex Teseira, orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+                                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
+
+                                    sgnjgjbjsfm
+
+                                    dsfmdfkgvmp
+                                    fsohfoijfn
+                                    rfdfsdfSGfs<br>
+                                    dsvbo<br>
+                                    fnvfd
+                                    <br>
+                                    fdhuirheoia
+                                    <br>
+                                    zxufsufhov
+                                                
+                                    </div>
+                            
+                        </div>
+                    </div>
+
+
+
+                </div>
+                
+          
+              
+            </div>
+          </div>
+
+        <div id="certificates" style="padding:100px;  background-color: #FAFAFA;">
+            <div class="container">
+                <div class="row" data-aos="fade-up" data-aos-easing="linear"
+                data-aos-duration="1000">
+                    <div class="col-sm-12">
+                        <div class="work_header"> My Achivements!!</div>
+                    </div>
+                </div>
+                <div class="row" style="margin-top:100px;"> 
+                    <div class="col-sm-6" >
+                      <img src="images/01.jpg" onclick="openModal();currentSlide(1)"style="width:100%;  padding-bottom:10px;" class="hover-shadow cursor" data-aos="fade-up" data-aos-easing="linear"
+                      data-aos-duration="1000">
+                      <img src="images/01.jpg" onclick="openModal();currentSlide(2)"style="width:100%; " class="hover-shadow cursor" data-aos="fade-up" data-aos-easing="linear"
+                      data-aos-duration="1000">
+                      
+                      </div>
+                      <div class="col-sm-4"  style="margin-left: -17px;">
+                        <img src="images/01.jpg" onclick="openModal();currentSlide(3)" style="width:100%; padding-bottom:10px;"class="hover-shadow cursor" data-aos="fade-up" data-aos-easing="linear"
+                        data-aos-duration="1000">
+                        <img src="images/01.jpg" onclick="openModal();currentSlide(4)"style="width:100%; padding-bottom:10px;" class="hover-shadow cursor" data-aos="fade-up" data-aos-easing="linear"
+                        data-aos-duration="1000">
+                        <img src="images/01.jpg" onclick="openModal();currentSlide(5)" style="width:100%; height:34%;" class="hover-shadow cursor" data-aos="fade-up" data-aos-easing="linear"
+                        data-aos-duration="1000">
+                        
+                        </div>
+                        <div class="col-sm-2"  style="margin-left: -17px; ">
+                            <img src="images/01.jpg" onclick="openModal();currentSlide(6)" style="width:135%; padding-bottom:10px;"class="hover-shadow cursor" data-aos="fade-up" data-aos-easing="linear"
+                            data-aos-duration="1000" >
+                            <img src="images/01.jpg" onclick="openModal();currentSlide(7)" style="width:135%; height:50%;  padding-bottom:10px;" class="hover-shadow cursor" data-aos="fade-up" data-aos-easing="linear"
+                            data-aos-duration="1000">
+                            <img src="images/01.jpg" onclick="openModal();currentSlide(8)" style="width:135%; height:30%;" class="hover-shadow cursor" data-aos="fade-up" data-aos-easing="linear"
+                            data-aos-duration="1000">
+                            
+                            </div>
+                            
+                </div>
+            </div>
+            
+          
+        </div>
+
+        <div id="myModal" class="modal">
+            <span class="close cursor" onclick="closeModal()">&times;</span>
+            <div class="modal-content">
+          
+              <div class="mySlides">
+                <div class="numbertext">1 / 8</div>
+                <img src="images/01.jpg" style="width:100%; height:500px;">
+              </div>
+          
+              <div class="mySlides">
+                <div class="numbertext">2 / 8</div>
+                <img src="images/01.jpg" style="width:100%; height:500px;">
+              </div>
+          
+              <div class="mySlides">
+                <div class="numbertext">3 / 8</div>
+                <img src="images/01.jpg" style="width:100%; height:500px;">
+              </div>
+              
+              <div class="mySlides">
+                <div class="numbertext">4 / 8</div>
+                <img src="images/01.jpg" style="width:100%; height:500px;">
+              </div>
+
+              
+              <div class="mySlides">
+                <div class="numbertext">5 / 8</div>
+                <img src="images/01.jpg" style="width:100%; height:500px;">
+              </div>
+          
+              <div class="mySlides">
+                <div class="numbertext">6 / 8</div>
+                <img src="images/01.jpg" style="width:100%; height:500px;">
+              </div>
+          
+              <div class="mySlides">
+                <div class="numbertext">7 / 8</div>
+                <img src="images/01.jpg" style="width:100%; height:500px;">
+              </div>
+              
+              <div class="mySlides">
+                <div class="numbertext">8 / 8</div>
+                <img src="images/01.jpg" style="width:100%; height:500px;">
+              </div>
+              
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          
+            </div>
+          </div>
+        
+        </section>
+
+      
+       
     
        
      
         <script src="assets/js/main.js"></script>
-       
+        <script>
+            AOS.init();
+          </script>
+          <script>
+            
+        
+            // or enable responsive functionality:
+            GitHubCalendar(".calendar", "sparshjaincs  ", { responsive: true });
+        
+            // Use a proxy
+          
+        </script>
        
     </body>
 
