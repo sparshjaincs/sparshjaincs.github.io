@@ -117,3 +117,57 @@ color:white;
     height: 625px;
     background: transparent;
 }
+#about{
+  
+
+}
+.about-left{
+    margin-top: 80px;
+   
+   
+
+    width:100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-end;
+    align:right;
+ 
+
+}
+.about-right{
+    color:#898A8C;
+    padding:70px;
+    width:100%;
+ 
+    
+   
+
+}
+.about_intro_main{
+    color:#898A8C;
+    font-size:15px;
+    padding-top: 2px;
+ 
+    font-weight: 600;
+    margin-right: 50px;
+}
+.about_main{
+    color:#292B2C;
+    font-size:35px;
+    margin-right: 50px;
+    font-weight: 700;
+}
+
+.myProgress {
+    width: 100%;
+    background-color: #ddd;
+  }
+  
+  .myBar {
+    width: 1%;
+    height: 5px;
+    background-color: #4CAF50;
+  }
+
+</style>
