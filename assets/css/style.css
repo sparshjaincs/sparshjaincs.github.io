@@ -98,7 +98,7 @@ color:white;
     background-image: url("images/parallax.jpg");
 
     /* Set a specific height */
-    min-height: 500px; 
+    min-height: 300px; 
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -378,6 +378,7 @@ color:white;
   
   .hover-shadow:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
   }
     
 
