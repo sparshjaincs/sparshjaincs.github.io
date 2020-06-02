@@ -113,6 +113,13 @@ color:white;
     width: 100%;
     height:100%;
   }
+
+  #overlay2{
+    background-color: rgb(0,0,0,0.5); /* Black background with opacity */
+    z-index: 2; 
+    width: 100%;
+    height:100%;
+  }
   .parallax-window {
     height: 625px;
     background: transparent;
@@ -122,7 +129,7 @@ color:white;
 
 }
 .about-left{
-    margin-top: 80px;
+    padding-top: 70px;
    
    
 
@@ -130,7 +137,7 @@ color:white;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
     align:right;
  
 
@@ -197,7 +204,7 @@ color:white;
       justify-content: center;
       align-items: center;
       flex-direction: column;
-      margin-left: 60px;
+   
 
 
   }
@@ -211,10 +218,10 @@ color:white;
 
   .media_cont{
     padding-top:50px; 
-    height:150px;
+    
     padding-right :30px;
     border-right: 5px solid rgb(255, 253, 253,0.5);
-    padding-bottom:50px; 
+    padding-bottom:60px; 
    
   }
   .media-body{
@@ -222,9 +229,11 @@ color:white;
     height:150px;
     padding-left :30px;
     
-    padding-bottom:50px; 
+    padding-bottom:70px; 
    
   }
+ 
+  
   .dot {
     height: 7px;
     width: 7px;
@@ -403,7 +412,9 @@ color:white;
     text-align: center;
 
   }
-
+.fake{
+  padding-bottom: 20px;
+}
   
 .fake:hover .image {
     opacity: 0.3;
