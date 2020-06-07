@@ -278,7 +278,7 @@ color:white;
     display: none;
     position: fixed;
     z-index: 1;
-    padding-top: 100px;
+    padding-top: 50px;
     left: 0;
     top: 0;
     width: 100%;
@@ -466,5 +466,6 @@ color:white;
     width: 90%;
     height:500px;
     max-width: 1200px;
+    overflow-y: scroll;
   }
 </style>
