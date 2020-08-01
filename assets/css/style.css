@@ -1,7 +1,8 @@
 #body{
 font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 overflow-x: hidden;
-}.mynavbar{
+}
+.mynavbar{
     height:100px; 
     box-shadow:.1px .1px 1px rgb(168, 165, 165) ;
    
@@ -63,12 +64,22 @@ color:white;
     padding-bottom: 10px;
 }
 .myname1{
-    font-size: 20px;
+    font-size: 13px;
     display: flex;
     justify-content: flex-start;
+    color:rgb(255,255,255,0.5);
     letter-spacing: 2px;
     padding-bottom: 30px;
     border-bottom: 1px solid rgb(168, 165, 165,.5);
+}
+.myname2{
+  font-size: 20px;
+  display: flex;
+  justify-content: flex-start;
+  letter-spacing: 2px;
+  padding-bottom: 5px;
+
+  
 }
 .inline{
     display: flex;
@@ -143,13 +154,20 @@ color:white;
 
 }
 .about-right{
-    color:#898A8C;
+    color:rgb(0,0,0,0.8);
     padding:70px;
     width:100%;
  
     
    
 
+}
+.university{
+  font-size: 30px;
+}
+.university-main{
+  font-size: 20px;
+  font-weight: 700;
 }
 .about_intro_main{
     color:#898A8C;
@@ -162,7 +180,7 @@ color:white;
 .about_main{
     color:#292B2C;
     font-size:35px;
-    margin-right: 50px;
+   
     font-weight: 700;
 }
 
