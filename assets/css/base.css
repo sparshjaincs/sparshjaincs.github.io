@@ -1,0 +1,132 @@
+.body{
+    overflow-x: hidden; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+    ::-webkit-scrollbar {
+    width: 6px;
+    height:6px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+    background: #E5E8EB; 
+    }
+    
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+    background: #BCC0C4; 
+   
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+    }
+    .fa1{
+        color: transparent;
+        -webkit-text-stroke-width: 0.5px;
+        -webkit-text-stroke-color:#C9A56E;
+    }
+    .fa2{
+        color: transparent;
+        -webkit-text-stroke-width:1px;
+        -webkit-text-stroke-color:#2EA8E6;
+    }
+    .fa3{
+        color: transparent;
+        -webkit-text-stroke-width:1px;
+        -webkit-text-stroke-color:#546E7A;
+    }
+    .tag{
+font-size:12px; 
+border:1px solid #2EA8E6; 
+color:#2EA8E6;
+background-color:rgb(46, 168, 230,0.1);
+
+}
+.tag:hover{
+
+background-color:rgb(46, 168, 230,0.3);
+}
+    .pulse{
+        box-shadow: 0 0 0 rgba(229,120,81, 0.4);
+        animation: pulse 2s 1;
+        border-radius:50%;
+    }
+    .pulse1{
+        box-shadow: 0 0 0 rgba(46, 168, 230, 0.4);
+        animation: pulse 2s 1;
+       
+    }
+    a{
+        color:rgba(0, 0, 0, 0.75);
+        text-decoration: none;
+    }
+    a:hover{
+        color:#2FABEB;
+        text-decoration: none;
+    }
+    
+@-webkit-keyframes pulse {
+0% {
+-webkit-box-shadow: 0 0 0 0 rgba(196,45,99, 0.4);
+}
+70% {
+  -webkit-box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+}
+100% {
+  -webkit-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+}
+}
+@keyframes pulse {
+0% {
+-moz-box-shadow: 0 0 0 0 rgba(196,45,99, 0.4);
+box-shadow: 0 0 0 0 rgba(196,45,99, 0.4);
+}
+70% {
+  -moz-box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+  box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+}
+100% {
+  -moz-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+  box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+}
+}
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {   
+
+
+outline: 0 none;
+}
+.text-color{
+color:rgba(0, 0, 0, 0.75);
+}
+.notification_palette{
+background-color: #fff;
+}
+.notification_palette:hover{
+background-color: #F7F7F7;
+}
+.notification_new{
+background-color: rgb(46, 168, 230,0.1);
+}
+#div_notification , #sidecontent{
+overflow: hidden;
+}
+#div_notification:hover, #div_notification:active, #div_notification:focus, #sidecontent:hover,#sidecontent:active,#sidecontent:focus{
+overflow-y:auto;
+}
